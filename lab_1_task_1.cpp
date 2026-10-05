@@ -33,7 +33,8 @@ int main() {
     double d10 = d8 + d9;
     double d11 = d7 / d10;
 
-	double all_in_one = (pow(a_d + b_d, 4) - (pow(a_d, 4) + 4 * pow(a_d, 3) * b_d + 6 * pow(a_d, 2) * pow(b_d, 2))) / (4 * a_d * pow(b_d, 3) + pow(b_d, 4));
+	double all_in_one = (pow(a_d + b_d, 4) - (pow(a_d, 4) + 4 * pow(a_d, 3) * b_d + 
+		6 * pow(a_d, 2) * pow(b_d, 2))) / (4 * a_d * pow(b_d, 3) + pow(b_d, 4));
 
     cout << fixed << setprecision(10);
     cout << "Float output: " << f11 << endl;
