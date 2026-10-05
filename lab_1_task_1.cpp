@@ -1,23 +1,19 @@
-#include <iostream>
-#include <cmath>
-#include <iomanip>
 
-using namespace std;
 
 int main() {
     float a_f = 100.f;
     float b_f = 0.001f;
-    double f1 = a_f + b_f;
-    double f2 = pow(f1, 4);
-    double f3 = pow(a_f, 4);
-    double f4 = 4 * pow(a_f, 3) * b_f;
-    double f5 = 6 * pow(a_f, 2) * pow(b_f, 2);
-    double f6 = f3 + f4 + f5;
-    double f7 = f2 - f6;
-    double f8 = 4 * a_f * pow(b_f, 3);
-    double f9 = pow(b_f, 4);
-    double f10 = f8 + f9;
-    double f11 = f7 / f10;
+    float f1 = a_f + b_f;
+    float f2 = pow(f1, 4);
+    float f3 = pow(a_f, 4);
+    float f4 = 4 * pow(a_f, 3) * b_f;
+    float f5 = 6 * pow(a_f, 2) * pow(b_f, 2);
+    float f6 = f3 + f4 + f5;
+    float f7 = f2 - f6;
+    float f8 = 4 * a_f * pow(b_f, 3);
+    float f9 = pow(b_f, 4);
+    float f10 = f8 + f9;
+    float f11 = f7 / f10;
 
     double a_d = 100.0;
     double b_d = 0.001;
