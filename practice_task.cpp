@@ -34,12 +34,23 @@ int main() {
     // Підрахунок кількості типів символів
     if (is_numbers_exist == 'y') {
         character_types_count++;
+    } else if (is_numbers_exist != 'n') {
+        cout << "Помилка вводу" << endl;
+        return 1;
     }
+
     if (is_uppercase_exist == 'y') {
         character_types_count++;
+    } else if (is_uppercase_exist != 'n') {
+        cout << "Помилка вводу" << endl;
+        return 1;
     }
+    
     if (is_special_characters_exist == 'y') {
         character_types_count++;
+    } else if (is_special_characters_exist != 'n') {
+        cout << "Помилка вводу" << endl;
+        return 1;
     }
 
     // Розділяємо ввід та вивід для кращої читабельності
